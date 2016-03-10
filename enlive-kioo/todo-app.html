@@ -1,0 +1,43 @@
+<section id="todoapp" class="remaining-many completed-one todos-many">
+  <header id="header">
+    <h1>todos</h1>
+    <form>
+      <input id="new-todo" name="text" placeholder="What needs to be done?" autofocus=""/>
+    </form>
+  </header>
+  <section id="main">
+    <input id="toggle-all" type="checkbox"/>
+    <ul id="todo-list">
+      <li class="">
+	<div class="view">
+	  <input class="toggle" type="checkbox"/>
+	  <label>test</label>
+	  <button class="destroy"/>
+	</div>
+	<form>
+	  <input class="edit" name="text"/>
+	</form>
+      </li>
+    </ul>
+  </section>
+  <footer id="footer">
+    <span id="todo-count">
+      <strong>2</strong> <span id="count-text">items left</span>
+    </span>
+    
+    <ul id="filters">
+      <li>
+	<a id="filt-all" href="#/" class="selected">All</a>
+      </li>
+      <li>
+	<a id="filt-act" href="#/active" class="">Active</a>
+      </li>
+      <li>
+	<a id="filt-comp" href="#/completed" class="">Completed</a>
+      </li>
+    </ul>
+    <button id="clear-completed">Clear completed (<span class="count">1</span>)</button>
+  </footer>
+  
+  
+</section>
